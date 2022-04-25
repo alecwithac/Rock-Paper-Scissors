@@ -1,13 +1,14 @@
 const choices = ['rock', 'paper', 'scissors']
 const winners = [];
-
+/*
 function game() {
     for(let i = 1; i <= 5; i++){
         playRound(i);
-    }
+    }   
     document.querySelector('button').textContent = 'Play New Game';
     logWins();
 }
+*/
 
 function playRound(round) {
     const playerSelection = playerChoice();
@@ -79,5 +80,3 @@ function logRound(playerChoice, computerChoice, winner, round) {
     console.log(winner, 'Won the Round');
     console.log("---------------------");
 }
-
-    
